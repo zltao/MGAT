@@ -5,8 +5,7 @@ This is our Pytorch implementation for our paper- Multimodal Graph Attention Net
 MGAT: Multimodal Graph Attention Network for Recommendation. Inf. Process. Manag. 57(5): 102277 (2020)
 
 ## Introduction
-In this work, we aim to simplify the design of GCN to make it more concise and appropriate for recommendation. We propose a new model named LightGCN, including only the most essential component in GCN—neighborhood aggregation—for collaborative filtering.
-
+In this work, we propose a new Multimodal Graph Attention Network, short for MGAT, which disentangles personal interests at the granularity of modality. In particular, built upon multimodal interaction graphs, MGAT conducts information propagation within individual graphs, while leveraging the gated attention mechanism to identify varying importance scores of different modalities to user preference.
 ## Environment Requirement
 The code has been tested running under Python 3.6.5. The required packages are as follows:
 * torch==1.7.0
