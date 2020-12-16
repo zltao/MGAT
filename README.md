@@ -16,3 +16,17 @@ The code has been tested running under Python 3.6.5. The required packages are a
 ```python
 CUDA_VISIBLE_DEVICES=0 python  -u train.py --num_epoch 200 --batch_size 2048 --weight_decay 0.1 --l_r 3e-5
 ```
+# Citation
+@article{DBLP:journals/ipm/TaoWWHHC20,
+  author    = {Zhulin Tao and
+               Yinwei Wei and
+               Xiang Wang and
+               Xiangnan He and
+               Xianglin Huang and
+               Tat{-}Seng Chua},
+  title     = {{MGAT:} Multimodal Graph Attention Network for Recommendation},
+  journal   = {Inf. Process. Manag.},
+  volume    = {57},
+  number    = {5},
+  pages     = {102277},
+  year      = {2020}
